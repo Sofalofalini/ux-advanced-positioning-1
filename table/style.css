@@ -1,1 +1,39 @@
-/* Add your CSS Below */
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+td, th {
+    text-align: right;
+    padding: 10px;
+}
+th {
+    padding-left: 70px;
+}
+table {
+    border-collapse: collapse;
+    overflow: hidden;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border: .2px solid lightgrey;
+}
+#price {
+    padding-left: 200px;
+}
+.data {
+    display: flex;
+   justify-content: center;
+   margin-top: 50px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#categories {
+    background-color: green;
+    color: white;
+    border-radius: 40px;
+}
+tr:nth-of-type(even) {
+    background-color: rgb(220, 219, 219);
+}
