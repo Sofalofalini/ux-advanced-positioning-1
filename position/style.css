@@ -1,1 +1,18 @@
-/* Add your CSS Below */
+#b {
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+}
+
+#cc {
+    position:absolute;
+    left: 232px;
+    bottom: 56px;
+}
+
+#aaa {
+    position: fixed;
+    left: 81.7%;
+    bottom: 10%;
+  
+}
